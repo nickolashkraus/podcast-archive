@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#
+# USAGE
+#
+#   download
+#
+# DESCRIPTION
+#
+#   Download MP3 files.
+
+for f in manifests/*; do
+  DIR=$(basename "${f}" | sed 's/\.txt//g')
+  while IFS= read -r x
+  do
+    MP3_FILE=$(echo "${x}" | grep -E -o '[0-9A-Za-z_\-]+.mp3')
+    if [[ ! -e ../assets/mp3/${DIR}/${MP3_FILE} ]]
+    then
+      echo 'File does not exist. Downloading...'
+      curl -sL "${x}" --output "../assets/mp3/${DIR}/${MP3_FILE}"
+    fi
+  done < "${f}"
+done
