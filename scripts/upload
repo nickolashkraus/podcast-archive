@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+#
+# USAGE
+#
+#   upload
+#
+# DESCRIPTION
+#
+#   Upload cover art, RSS feed, and MP3 files to Amazon S3.
+
+BUCKETS=("endurance-planet" "security-now" "the-drive")
+
+echo 'Uploading cover art to S3...'
+for bucket in "${BUCKETS[@]}"; do
+  exists=$(aws s3 ls "archive.${bucket}/img/${bucket}.jpg" 2>&1 > /dev/null; echo $?)
+  if [[ $exists == 0 ]]
+  then
+    echo 'File already in S3.'
+  else
+    echo 'File does not exist. Uploading...'
+    aws s3 cp --acl "public-read" "../assets/img/${bucket}.jpg" "s3://archive.${bucket}/img/${bucket}.jpg"
+  fi
+done
+
+echo 'Uploading RSS feeds to S3...'
+for bucket in "${BUCKETS[@]}"; do
+  exists=$(aws s3 ls "archive.${bucket}/rss/${bucket}.rss" 2>&1 > /dev/null; echo $?)
+  if [[ $exists == 0 ]]
+  then
+    echo 'File already in S3.'
+  else
+    echo 'File does not exist. Uploading...'
+    aws s3 cp --acl "public-read" "../assets/rss/archive/${bucket}.rss" "s3://archive.${bucket}/rss/${bucket}.rss"
+  fi
+done
+
+echo 'Uploading MP3 files to S3...'
+for bucket in "${BUCKETS[@]}"; do
+  exists=$(aws s3 ls "archive.${bucket}" 2>&1 > /dev/null; echo $?)
+  if [[ $exists != 0 ]]
+  then
+    echo "ERROR: Bucket does not exist."
+    exit 1
+  fi
+  while IFS= read -r x
+  do
+    MP3_FILE=$(echo "${x}" | grep -E -o '[0-9A-Za-z_\-]+.mp3')
+    exists=$(aws s3 ls "archive.${bucket}/mp3/${MP3_FILE}" 2>&1 > /dev/null; echo $?)
+    if [[ $exists == 0 ]]
+    then
+      echo 'File already in S3.'
+    else
+      echo 'File does not exist. Uploading...'
+      aws s3 cp --acl "public-read" "../assets/mp3/${bucket}/${MP3_FILE}" "s3://archive.${bucket}/mp3/${MP3_FILE}"
+    fi
+  done < "manifests/${bucket}.txt"
+done
