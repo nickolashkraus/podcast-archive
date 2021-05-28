@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # REQUIRED VARIABLES
 # -----------------------------------------------------------------------------
-variable "BUCKET" {
+variable "BUCKETS" {
   type        = list(string)
   description = <<-EOF
   The name of each S3 bucket.
