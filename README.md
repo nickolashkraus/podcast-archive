@@ -18,3 +18,21 @@ An archive of my favorite podcasts.
 
 * [Official RSS Feed](https://feeds.twit.tv/sn.xml)
 * [Archive RSS Feed](https://archive.security-now.s3.amazonaws.com/rss/security-now.rss)
+
+## Deployment
+
+### Terraform
+
+Set Terraform version via `tfenv`:
+
+```bash
+tfenv install $(cat .terraform-version) && tfenv use $(cat .terraform-version)
+```
+
+Deploy Terraform:
+
+```bash
+cd tf
+terraform init
+terraform apply
+```
