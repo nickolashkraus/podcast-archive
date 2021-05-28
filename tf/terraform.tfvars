@@ -1,1 +1,1 @@
-BUCKETS = ["endurance-planet", "the-drive", "security-now"]
+BUCKETS = ["endurance-planet", "security-now", "the-drive"]
