@@ -25,11 +25,11 @@ provider "aws" {
 # -----------------------------------------------------------------------------
 resource "aws_s3_bucket" "s3" {
   count  = length(var.BUCKETS)
-  bucket = var.BUCKETS[count.index]
+  bucket = "archive.${var.BUCKETS[count.index]}"
   acl    = "public-read"
 
   logging {
-    target_bucket = "${var.BUCKETS[count.index]}-logging"
+    target_bucket = "logging.${var.BUCKETS[count.index]}"
     target_prefix = "s3/"
   }
 }
@@ -42,6 +42,6 @@ resource "aws_s3_bucket" "s3" {
 # -----------------------------------------------------------------------------
 resource "aws_s3_bucket" "s3_logging" {
   count  = length(var.BUCKETS)
-  bucket = "${var.BUCKETS[count.index]}-logging"
+  bucket = "logging.${var.BUCKETS[count.index]}"
   acl    = "log-delivery-write"
 }
