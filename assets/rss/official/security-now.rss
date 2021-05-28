@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+	<channel>
+		<title>Security Now (Audio)</title>
+		<itunes:author>TWiT</itunes:author>
+		<link>https://twit.tv/shows/security-now</link>
+		<generator>TWiT Feed Generator v3.11</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<language>en-US</language>
+		<copyright>This work is licensed under a Creative Commons License - Attribution-NonCommercial-NoDerivatives 4.0 International - http://creativecommons.org/licenses/by-nc-nd/4.0/</copyright>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/4.0/</creativeCommons:license>
+		<managingEditor>distro@twit.tv (TWiT Editors)</managingEditor>
+		<webMaster>distro@twit.tv (TWiT Engineering)</webMaster>
+		<ttl>720</ttl>
+		<sy:updatePeriod>weekly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<lastBuildDate>Wed, 26 May 2021 10:14:27 PDT</lastBuildDate>
+		<pubDate>Wed, 26 May 2021 10:14:27 PDT</pubDate>
+		<rawvoice:frequency>weekly</rawvoice:frequency>
+		<rawvoice:location>Petaluma, CA</rawvoice:location>
+		<itunes:type>episodic</itunes:type>
+		<itunes:subtitle>Steve Gibson discusses the hot topics in security today with Leo Laporte.</itunes:subtitle>
+		<itunes:summary>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte.
+
+Records live every Tuesday at 4:30pm Eastern / 1:30pm Pacific / 20:30 UTC.</itunes:summary>
+		<description>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte.
+
+Records live every Tuesday at 4:30pm Eastern / 1:30pm Pacific / 20:30 UTC.</description>
+		<itunes:keywords>TWiT, Technology, Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, emcryption</itunes:keywords>
+		<rawvoice:rating tv="tv-g">tv-g</rawvoice:rating>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:block>no</itunes:block>
+		<itunes:owner>
+			<itunes:name>Leo Laporte</itunes:name>
+			<itunes:email>distro@twit.tv</itunes:email>
+		</itunes:owner>
+		<itunes:category text="News">
+			<itunes:category text="Tech News"/>
+</itunes:category>
+		<itunes:category text="Technology" />
+		<image>
+			<title>Security Now (Audio)</title>
+			<url>https://elroy.twit.tv/sites/default/files/styles/twit_album_art_144x144/public/images/shows/security_now/album_art/audio/sn_albumart_mask.jpg?itok=VEh3JGKV</url>
+			<link>https://twit.tv/shows/security-now</link>
+			<width>144</width>
+			<height>144</height>
+		</image>
+		<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_album_art_2048x2048/public/images/shows/security_now/album_art/audio/sn_albumart_mask.jpg?itok=scC8c-TL" />
+		<itunes:new-feed-url>https://feeds.twit.tv/sn.xml</itunes:new-feed-url>
+		<rawvoice:subscribe feed="https://feeds.twit.tv/sn.xml" itunes="https://podcasts.apple.com/us/podcast/security-now-mp3/id79016499?uo=10" html="https://twit.tv/shows/security-now"></rawvoice:subscribe>
+		<atom:link href="https://feeds.twit.tv/sn.xml" type="application/rss+xml" rel="self"/>
+		<item>
+			<title>SN 820: The Dark Escrow - Firefox Fission, Doom CAPTCHA, Conti and CNA Financial Ransomware</title>
+			<itunes:title>The Dark Escrow - Firefox Fission, Doom CAPTCHA, Conti and CNA Financial Ransomware</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 25 May 2021 17:30:00 PDT</pubDate>
+			<itunes:episode>820</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/820</link>
+			<comments>https://twit.tv/shows/security-now/episodes/820</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Firefox Fission, Doom CAPTCHA, Conti and CNA Financial Ransomware</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, firefox, firefox fission, firefox browser security, conti gang, conti ransomware, ransomware, CNA financial, cna security, cna ransomware, iot, iot security, mean time to inventory, doom captcha, captcha</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Picture of the Week.</li>
+<li>Firefox finally achieves sustained "Fission".</li>
+<li>Conti ransomware.</li>
+<li>CNA Financial pays up big.</li>
+<li>When they say IoT do they mean us?</li>
+<li>"Mean Time to Inventory"</li>
+<li>The "Doom" CAPTCHA.</li>
+<li>The "Helios" screensaver.</li>
+<li>Closing the Loop.</li>
+<li>The Dark Escrow.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-820-Notes.pdf">https://www.grc.com/sn/SN-820-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+<li><a href="http://udacity.com/TWiT">udacity.com/TWiT offer code TWIT75</a></li>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Picture of the Week.</li>
+<li>Firefox finally achieves sustained "Fission".</li>
+<li>Conti ransomware.</li>
+<li>CNA Financial pays up big.</li>
+<li>When they say IoT do they mean us?</li>
+<li>"Mean Time to Inventory"</li>
+<li>The "Doom" CAPTCHA.</li>
+<li>The "Helios" screensaver.</li>
+<li>Closing the Loop.</li>
+<li>The Dark Escrow.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-820-Notes.pdf">https://www.grc.com/sn/SN-820-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+<li><a href="http://udacity.com/TWiT">udacity.com/TWiT offer code TWIT75</a></li>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Picture of the Week.</li>
+<li>Firefox finally achieves sustained "Fission".</li>
+<li>Conti ransomware.</li>
+<li>CNA Financial pays up big.</li>
+<li>When they say IoT do they mean us?</li>
+<li>"Mean Time to Inventory"</li>
+<li>The "Doom" CAPTCHA.</li>
+<li>The "Helios" screensaver.</li>
+<li>Closing the Loop.</li>
+<li>The Dark Escrow.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-820-Notes.pdf">https://www.grc.com/sn/SN-820-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+<li><a href="http://udacity.com/TWiT">udacity.com/TWiT offer code TWIT75</a></li>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/826577/hero/sn_0820.jpg?itok=FZwjkjC_"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0820/sn0820.mp3</guid>
+			<itunes:duration>1:45:35</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0820/sn0820.mp3" length="51556226" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0820/sn0820.mp3" fileSize="51556226" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 820: The Dark Escrow - Firefox Fission, Doom CAPTCHA, Conti and CNA Financial Ransomware</media:title>
+				<media:description type="plain">Firefox Fission, Doom CAPTCHA, Conti and CNA Financial Ransomware</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, firefox, firefox fission, firefox browser security, conti gang, conti ransomware, ransomware, CNA financial, cna security, cna ransomware, iot, iot security, mean time to inventory, doom captcha, captcha</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/826577/hero/sn_0820.jpg?itok=nsfJRyNM" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 819: The WiFi Frag Attacks - DarkSide Follow-Up, DarkTracer, Patch Tuesday, The Frontiers Saga</title>
+			<itunes:title>The WiFi Frag Attacks - DarkSide Follow-Up, DarkTracer, Patch Tuesday, The Frontiers Saga</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 18 May 2021 19:00:00 PDT</pubDate>
+			<itunes:episode>819</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/819</link>
+			<comments>https://twit.tv/shows/security-now/episodes/819</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>DarkSide Follow-Up, DarkTracer, Patch Tuesday, The Frontiers Saga</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, darkside hack, pipeline hack, darkside ransomware, pipeline ransomware, colonial pipeline, darktracer, darkweb, toshiba, Microsoft, patch tuesday, frontiers saga, uap, unidentified aerial phenomena</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>DarkSide Follow-Up.</li>
+<li>Follow The Money.</li>
+<li>Toshiba Attacked by DarkSide.</li>
+<li>Ransomware topics off-limits here.</li>
+<li>"DarkTracer: DarkWeb Criminal Intelligence"</li>
+<li>Please Leak our Stolen Data!</li>
+<li>Patch Tuesday Review.</li>
+<li>A review of the first book of "The Frontiers Saga"</li>
+<li>60 Minutes/UAP: Unidentified Aerial Phenomena.</li>
+<li>Closing the Loop.</li>
+<li>The WiFi Frag Attacks.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-819-Notes.pdf">https://www.grc.com/sn/SN-819-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://barracuda.com/securitynow">barracuda.com/securitynow</a></li>
+<li><a href="http://wwt.com/twit">wwt.com/twit</a></li>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>DarkSide Follow-Up.</li>
+<li>Follow The Money.</li>
+<li>Toshiba Attacked by DarkSide.</li>
+<li>Ransomware topics off-limits here.</li>
+<li>"DarkTracer: DarkWeb Criminal Intelligence"</li>
+<li>Please Leak our Stolen Data!</li>
+<li>Patch Tuesday Review.</li>
+<li>A review of the first book of "The Frontiers Saga"</li>
+<li>60 Minutes/UAP: Unidentified Aerial Phenomena.</li>
+<li>Closing the Loop.</li>
+<li>The WiFi Frag Attacks.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-819-Notes.pdf">https://www.grc.com/sn/SN-819-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://barracuda.com/securitynow">barracuda.com/securitynow</a></li>
+<li><a href="http://wwt.com/twit">wwt.com/twit</a></li>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>DarkSide Follow-Up.</li>
+<li>Follow The Money.</li>
+<li>Toshiba Attacked by DarkSide.</li>
+<li>Ransomware topics off-limits here.</li>
+<li>"DarkTracer: DarkWeb Criminal Intelligence"</li>
+<li>Please Leak our Stolen Data!</li>
+<li>Patch Tuesday Review.</li>
+<li>A review of the first book of "The Frontiers Saga"</li>
+<li>60 Minutes/UAP: Unidentified Aerial Phenomena.</li>
+<li>Closing the Loop.</li>
+<li>The WiFi Frag Attacks.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-819-Notes.pdf">https://www.grc.com/sn/SN-819-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://barracuda.com/securitynow">barracuda.com/securitynow</a></li>
+<li><a href="http://wwt.com/twit">wwt.com/twit</a></li>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/826393/hero/sn_0819.jpg?itok=d6guDg8J"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0819/sn0819.mp3</guid>
+			<itunes:duration>1:59:10</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0819/sn0819.mp3" length="57707389" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0819/sn0819.mp3" fileSize="57707389" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 819: The WiFi Frag Attacks - DarkSide Follow-Up, DarkTracer, Patch Tuesday, The Frontiers Saga</media:title>
+				<media:description type="plain">DarkSide Follow-Up, DarkTracer, Patch Tuesday, The Frontiers Saga</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, darkside hack, pipeline hack, darkside ransomware, pipeline ransomware, colonial pipeline, darktracer, darkweb, toshiba, Microsoft, patch tuesday, frontiers saga, uap, unidentified aerial phenomena</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/826393/hero/sn_0819.jpg?itok=pL0TcEtF" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 818: News From the Darkside - Exim Email Server, Tor's Exit Nodes, TsuNAME, Project Hail Mary</title>
+			<itunes:title>News From the Darkside - Exim Email Server, Tor's Exit Nodes, TsuNAME, Project Hail Mary</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 11 May 2021 17:00:00 PDT</pubDate>
+			<itunes:episode>818</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/818</link>
+			<comments>https://twit.tv/shows/security-now/episodes/818</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Exim Email Server, Tor's Exit Nodes, TsuNAME, Project Hail Mary</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, TsuNAME, dns, domain name system, cisco, Google, two-step verification, 2FA, automatic enrollment, Exim, eMail transfer agent, e-soft, 21 nails, tor, exit nodes, vpn, https-only browser, project hail mary</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>TsuNAME - "DNS Configuration Flaw Lets Attackers Take Down DNS Servers"</li>
+<li>Huh Google?</li>
+<li>Tor's Exit Nodes.</li>
+<li>21 Nails in Exim's coffin.</li>
+<li>Project Hail Mary: A Novel.</li>
+<li>Closing the loop.</li>
+<li>SpinRite update.</li>
+<li>News from the Darkside.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-818-Notes.pdf">https://www.grc.com/sn/SN-818-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://canary.tools/twit">canary.tools/twit - use code: TWIT</a></li>
+<li><a href="http://Bandwidth.com/SecurityNow">Bandwidth.com/SecurityNow</a></li>
+<li><a href="http://Bitwarden.com/twit">Bitwarden.com/twit</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>TsuNAME - "DNS Configuration Flaw Lets Attackers Take Down DNS Servers"</li>
+<li>Huh Google?</li>
+<li>Tor's Exit Nodes.</li>
+<li>21 Nails in Exim's coffin.</li>
+<li>Project Hail Mary: A Novel.</li>
+<li>Closing the loop.</li>
+<li>SpinRite update.</li>
+<li>News from the Darkside.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-818-Notes.pdf">https://www.grc.com/sn/SN-818-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://canary.tools/twit">canary.tools/twit - use code: TWIT</a></li>
+<li><a href="http://Bandwidth.com/SecurityNow">Bandwidth.com/SecurityNow</a></li>
+<li><a href="http://Bitwarden.com/twit">Bitwarden.com/twit</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>TsuNAME - "DNS Configuration Flaw Lets Attackers Take Down DNS Servers"</li>
+<li>Huh Google?</li>
+<li>Tor's Exit Nodes.</li>
+<li>21 Nails in Exim's coffin.</li>
+<li>Project Hail Mary: A Novel.</li>
+<li>Closing the loop.</li>
+<li>SpinRite update.</li>
+<li>News from the Darkside.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-818-Notes.pdf">https://www.grc.com/sn/SN-818-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://canary.tools/twit">canary.tools/twit - use code: TWIT</a></li>
+<li><a href="http://Bandwidth.com/SecurityNow">Bandwidth.com/SecurityNow</a></li>
+<li><a href="http://Bitwarden.com/twit">Bitwarden.com/twit</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/826242/hero/sn_0819.jpg?itok=96bJ3FYj"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0818/sn0818.mp3</guid>
+			<itunes:duration>1:54:34</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0818/sn0818.mp3" length="55256933" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0818/sn0818.mp3" fileSize="55256933" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 818: News From the Darkside - Exim Email Server, Tor's Exit Nodes, TsuNAME, Project Hail Mary</media:title>
+				<media:description type="plain">Exim Email Server, Tor's Exit Nodes, TsuNAME, Project Hail Mary</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, TsuNAME, dns, domain name system, cisco, Google, two-step verification, 2FA, automatic enrollment, Exim, eMail transfer agent, e-soft, 21 nails, tor, exit nodes, vpn, https-only browser, project hail mary</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/826242/hero/sn_0819.jpg?itok=dpZ2BhAM" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 817: The Ransomware Task Force - Scripps Health, REvil Hacks Quanta Computer, Emotet Botnet, QNAP</title>
+			<itunes:title>The Ransomware Task Force - Scripps Health, REvil Hacks Quanta Computer, Emotet Botnet, QNAP</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 04 May 2021 18:00:00 PDT</pubDate>
+			<itunes:episode>817</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/817</link>
+			<comments>https://twit.tv/shows/security-now/episodes/817</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Scripps Health, REvil Hacks Quanta Computer, Emotet Botnet, QNAP</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, revil, Apple, quanta, quanta computer, quanta hack, revil hack, scripps hack, scripps health, scripps security, emotet botnet, botnet defeat, emotet security, haveibeenpwned, qnap, gravity nntp</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Picture of the Week.</li>
+<li>REvil hacks Apple supplier Quanta Computer.</li>
+<li>World-famous Scripps Health taken down.</li>
+<li>The Big Emotet Botnet Takedown.</li>
+<li>Emotet's 4,324,770 eMail addresses.</li>
+<li>Have I Been Pwned domain-wide notifications.</li>
+<li>QNAP.</li>
+<li>Gravity NNTP Newsreader updated to v3.0.11.0</li>
+<li>Just a bit more about Dan Kaminsky.</li>
+<li>Closing the Loop.</li>
+<li>The Ransomware Task Force.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-817-Notes.pdf">https://www.grc.com/sn/SN-817-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://itpro.tv/securitynow">itpro.tv/securitynow  promo code SN30</a></li>
+<li><a href="http://vee.am/securitynow">vee.am/securitynow</a></li>
+<li><a href="http://audible.com/securitynow">audible.com/securitynow or text securitynow to 500-500</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Picture of the Week.</li>
+<li>REvil hacks Apple supplier Quanta Computer.</li>
+<li>World-famous Scripps Health taken down.</li>
+<li>The Big Emotet Botnet Takedown.</li>
+<li>Emotet's 4,324,770 eMail addresses.</li>
+<li>Have I Been Pwned domain-wide notifications.</li>
+<li>QNAP.</li>
+<li>Gravity NNTP Newsreader updated to v3.0.11.0</li>
+<li>Just a bit more about Dan Kaminsky.</li>
+<li>Closing the Loop.</li>
+<li>The Ransomware Task Force.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-817-Notes.pdf">https://www.grc.com/sn/SN-817-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://itpro.tv/securitynow">itpro.tv/securitynow  promo code SN30</a></li>
+<li><a href="http://vee.am/securitynow">vee.am/securitynow</a></li>
+<li><a href="http://audible.com/securitynow">audible.com/securitynow or text securitynow to 500-500</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Picture of the Week.</li>
+<li>REvil hacks Apple supplier Quanta Computer.</li>
+<li>World-famous Scripps Health taken down.</li>
+<li>The Big Emotet Botnet Takedown.</li>
+<li>Emotet's 4,324,770 eMail addresses.</li>
+<li>Have I Been Pwned domain-wide notifications.</li>
+<li>QNAP.</li>
+<li>Gravity NNTP Newsreader updated to v3.0.11.0</li>
+<li>Just a bit more about Dan Kaminsky.</li>
+<li>Closing the Loop.</li>
+<li>The Ransomware Task Force.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-817-Notes.pdf">https://www.grc.com/sn/SN-817-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://itpro.tv/securitynow">itpro.tv/securitynow  promo code SN30</a></li>
+<li><a href="http://vee.am/securitynow">vee.am/securitynow</a></li>
+<li><a href="http://audible.com/securitynow">audible.com/securitynow or text securitynow to 500-500</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/826089/hero/sn_0817.jpg?itok=Ld9Cus6s"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0817/sn0817.mp3</guid>
+			<itunes:duration>2:19:57</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0817/sn0817.mp3" length="67483685" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0817/sn0817.mp3" fileSize="67483685" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 817: The Ransomware Task Force - Scripps Health, REvil Hacks Quanta Computer, Emotet Botnet, QNAP</media:title>
+				<media:description type="plain">Scripps Health, REvil Hacks Quanta Computer, Emotet Botnet, QNAP</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, revil, Apple, quanta, quanta computer, quanta hack, revil hack, scripps hack, scripps health, scripps security, emotet botnet, botnet defeat, emotet security, haveibeenpwned, qnap, gravity nntp</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/826089/hero/sn_0817.jpg?itok=XreNUQQk" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 816: The Mystery of AS8003 - Remembering Dan Kaminsky, Project Zero, Unethical Security Research</title>
+			<itunes:title>The Mystery of AS8003 - Remembering Dan Kaminsky, Project Zero, Unethical Security Research</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 27 Apr 2021 17:30:00 PDT</pubDate>
+			<itunes:episode>816</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/816</link>
+			<comments>https://twit.tv/shows/security-now/episodes/816</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Remembering Dan Kaminsky, Project Zero, Unethical Security Research</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, patch tuesday, Microsoft, Windows, project zero, Google, google project, ethical security, security research, cloudflare, patent troll, cloudflar patent, as8003, pentagon, pentagon IP, dan kaminsky</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Remembering Dan Kaminsky.</li>
+<li>Week before last was Patch Tuesday.</li>
+<li>Google's Project Zero responds to today's patch latency reality.</li>
+<li>Baking security into IoT</li>
+<li>UNethical security research.</li>
+<li>CloudFlare refuses to knuckle under to Patent Trolls.</li>
+<li>Closing The Loop.</li>
+<li>The Mystery of AS8003.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-816-Notes.pdf">https://www.grc.com/sn/SN-816-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+<li><a href="http://barracuda.com/securitynow">barracuda.com/securitynow</a></li>
+<li><a href="https://plextrac.com/twit/?utm_source=twit&utm_medium=podcast&utm_campaign=securitynow">plextrac.com/twit</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Remembering Dan Kaminsky.</li>
+<li>Week before last was Patch Tuesday.</li>
+<li>Google's Project Zero responds to today's patch latency reality.</li>
+<li>Baking security into IoT</li>
+<li>UNethical security research.</li>
+<li>CloudFlare refuses to knuckle under to Patent Trolls.</li>
+<li>Closing The Loop.</li>
+<li>The Mystery of AS8003.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-816-Notes.pdf">https://www.grc.com/sn/SN-816-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+<li><a href="http://barracuda.com/securitynow">barracuda.com/securitynow</a></li>
+<li><a href="https://plextrac.com/twit/?utm_source=twit&utm_medium=podcast&utm_campaign=securitynow">plextrac.com/twit</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Remembering Dan Kaminsky.</li>
+<li>Week before last was Patch Tuesday.</li>
+<li>Google's Project Zero responds to today's patch latency reality.</li>
+<li>Baking security into IoT</li>
+<li>UNethical security research.</li>
+<li>CloudFlare refuses to knuckle under to Patent Trolls.</li>
+<li>Closing The Loop.</li>
+<li>The Mystery of AS8003.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-816-Notes.pdf">https://www.grc.com/sn/SN-816-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+<li><a href="http://barracuda.com/securitynow">barracuda.com/securitynow</a></li>
+<li><a href="https://plextrac.com/twit/?utm_source=twit&utm_medium=podcast&utm_campaign=securitynow">plextrac.com/twit</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/825928/hero/sn_0816_v2.jpg?itok=qyjSQ-24"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0816/sn0816.mp3</guid>
+			<itunes:duration>2:10:05</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0816/sn0816.mp3" length="62779054" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0816/sn0816.mp3" fileSize="62779054" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 816: The Mystery of AS8003 - Remembering Dan Kaminsky, Project Zero, Unethical Security Research</media:title>
+				<media:description type="plain">Remembering Dan Kaminsky, Project Zero, Unethical Security Research</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, patch tuesday, Microsoft, Windows, project zero, Google, google project, ethical security, security research, cloudflare, patent troll, cloudflar patent, as8003, pentagon, pentagon IP, dan kaminsky</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/825928/hero/sn_0816_v2.jpg?itok=3EG6QmmG" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 815: Homogeneity Attacks - Is FLoC All That Bad?, Humble Bundle For Programmers, Chrome 90</title>
+			<itunes:title>Homogeneity Attacks - Is FLoC All That Bad?, Humble Bundle For Programmers, Chrome 90</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 20 Apr 2021 18:00:00 PDT</pubDate>
+			<itunes:episode>815</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/815</link>
+			<comments>https://twit.tv/shows/security-now/episodes/815</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Is FLoC All That Bad?, Humble Bundle For Programmers, Chrome 90</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, floc, vivaldi floc, vivaldi project, chrome, exchange server, exchange server web shells, wordpress floc, Humble Bundle, programming books, SpinRite, chrome v90, chrome 90, floc id, vaccination passport</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Club TWiT details.</li>
+<li>Picture of the Week.</li>
+<li>The Vivaldi Project's take on FLoC.</li>
+<li>Chrome continues to be THE high-value target.</li>
+<li>We're at Chrome v90.</li>
+<li>Exchange Server Web Shells removed, with DOJ Permission.</li>
+<li>WordPress joins the "FLoC No!" chorus.</li>
+<li>It's Humble Bundle Book Time.</li>
+<li>Closing the Loop.</li>
+<li>A quick SpinRite progress report.</li>
+<li>Homogeneity Attacks.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-815-Notes.pdf">https://www.grc.com/sn/SN-815-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+<li><a href="http://thehelm.com/securitynow">thehelm.com/securitynow </a></li>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Club TWiT details.</li>
+<li>Picture of the Week.</li>
+<li>The Vivaldi Project's take on FLoC.</li>
+<li>Chrome continues to be THE high-value target.</li>
+<li>We're at Chrome v90.</li>
+<li>Exchange Server Web Shells removed, with DOJ Permission.</li>
+<li>WordPress joins the "FLoC No!" chorus.</li>
+<li>It's Humble Bundle Book Time.</li>
+<li>Closing the Loop.</li>
+<li>A quick SpinRite progress report.</li>
+<li>Homogeneity Attacks.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-815-Notes.pdf">https://www.grc.com/sn/SN-815-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+<li><a href="http://thehelm.com/securitynow">thehelm.com/securitynow </a></li>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Club TWiT details.</li>
+<li>Picture of the Week.</li>
+<li>The Vivaldi Project's take on FLoC.</li>
+<li>Chrome continues to be THE high-value target.</li>
+<li>We're at Chrome v90.</li>
+<li>Exchange Server Web Shells removed, with DOJ Permission.</li>
+<li>WordPress joins the "FLoC No!" chorus.</li>
+<li>It's Humble Bundle Book Time.</li>
+<li>Closing the Loop.</li>
+<li>A quick SpinRite progress report.</li>
+<li>Homogeneity Attacks.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-815-Notes.pdf">https://www.grc.com/sn/SN-815-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>Get episodes ad-free with Club TWiT at <a href="https://twit.tv/clubtwit" rel="payment">https://twit.tv/clubtwit</a> </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+<li><a href="http://thehelm.com/securitynow">thehelm.com/securitynow </a></li>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/825713/hero/sn_0815.jpg?itok=OXUvYWjZ"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0815/sn0815.mp3</guid>
+			<itunes:duration>2:03:48</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0815/sn0815.mp3" length="60365066" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0815/sn0815.mp3" fileSize="60365066" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 815: Homogeneity Attacks - Is FLoC All That Bad?, Humble Bundle For Programmers, Chrome 90</media:title>
+				<media:description type="plain">Is FLoC All That Bad?, Humble Bundle For Programmers, Chrome 90</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, floc, vivaldi floc, vivaldi project, chrome, exchange server, exchange server web shells, wordpress floc, Humble Bundle, programming books, SpinRite, chrome v90, chrome 90, floc id, vaccination passport</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/825713/hero/sn_0815.jpg?itok=rALnGZpH" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 814: PwnIt And OwnIt - Why Port 10080 is Blocked, FLoC Rollout, PHP GIT Hack Revisited, CISCO Router Problems</title>
+			<itunes:title>PwnIt And OwnIt - Why Port 10080 is Blocked, FLoC Rollout, PHP GIT Hack Revisited, CISCO Router Problems</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 13 Apr 2021 17:30:00 PDT</pubDate>
+			<itunes:episode>814</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/814</link>
+			<comments>https://twit.tv/shows/security-now/episodes/814</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Why Port 10080 is Blocked, FLoC Rollout, PHP GIT Hack Revisited, CISCO Router Problems</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, slip stream, floc, Cookie, Google FLoC, floc tracking, cookie tracking, floc privacy, floc rollout, php git, git hack, php hack, cisco router problems, cisco router issues, cisco router vulnerabilities</itunes:keywords>
+			<description><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>The Slips keep Streaming.</li>
+<li>Are You FLoC'ed?</li>
+<li>The PHP GIT Hack, revisited.</li>
+<li>CISCO abandons old routers having problems.</li>
+<li>Failure to Patch.</li>
+<li>PwnIt And OwnIt.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-814-Notes.pdf">https://www.grc.com/sn/SN-814-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Bitwarden.com/twit">Bitwarden.com/twit</a></li>
+<li><a href="http://canary.tools/twit">canary.tools/twit - use code: TWIT</a></li>
+<li><a href="http://wwt.com/twit">wwt.com/twit</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>The Slips keep Streaming.</li>
+<li>Are You FLoC'ed?</li>
+<li>The PHP GIT Hack, revisited.</li>
+<li>CISCO abandons old routers having problems.</li>
+<li>Failure to Patch.</li>
+<li>PwnIt And OwnIt.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-814-Notes.pdf">https://www.grc.com/sn/SN-814-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Bitwarden.com/twit">Bitwarden.com/twit</a></li>
+<li><a href="http://canary.tools/twit">canary.tools/twit - use code: TWIT</a></li>
+<li><a href="http://wwt.com/twit">wwt.com/twit</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<ul><li>Picture of the week.</li>
+<li>The Slips keep Streaming.</li>
+<li>Are You FLoC'ed?</li>
+<li>The PHP GIT Hack, revisited.</li>
+<li>CISCO abandons old routers having problems.</li>
+<li>Failure to Patch.</li>
+<li>PwnIt And OwnIt.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-814-Notes.pdf">https://www.grc.com/sn/SN-814-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://Bitwarden.com/twit">Bitwarden.com/twit</a></li>
+<li><a href="http://canary.tools/twit">canary.tools/twit - use code: TWIT</a></li>
+<li><a href="http://wwt.com/twit">wwt.com/twit</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/825484/hero/sn_0814.jpg?itok=a9WYT8CP"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0814/sn0814.mp3</guid>
+			<itunes:duration>2:05:28</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0814/sn0814.mp3" length="60703157" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0814/sn0814.mp3" fileSize="60703157" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 814: PwnIt And OwnIt - Why Port 10080 is Blocked, FLoC Rollout, PHP GIT Hack Revisited, CISCO Router Problems</media:title>
+				<media:description type="plain">Why Port 10080 is Blocked, FLoC Rollout, PHP GIT Hack Revisited, CISCO Router Problems</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, slip stream, floc, Cookie, Google FLoC, floc tracking, cookie tracking, floc privacy, floc rollout, php git, git hack, php hack, cisco router problems, cisco router issues, cisco router vulnerabilities</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/825484/hero/sn_0814.jpg?itok=nGWJtL9s" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 813: A Spy in Our Pocket - Ubiquity Coverup, Facebook Data Dump, Malicious Call of Duty Cheats</title>
+			<itunes:title>A Spy in Our Pocket - Ubiquity Coverup, Facebook Data Dump, Malicious Call of Duty Cheats</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 06 Apr 2021 17:00:00 PDT</pubDate>
+			<itunes:episode>813</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/813</link>
+			<comments>https://twit.tv/shows/security-now/episodes/813</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Ubiquity Coverup, Facebook Data Dump, Malicious Call of Duty Cheats</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, ubiquiti, qnap, nas security, nas storage, call of duty malware, call of duty cheats, warzone cheats, warzone malware, android app permissions, android permissions, app permissions, water supply hack</itunes:keywords>
+			<description><![CDATA[
+<p>Ubiquity coverup, Facebook data dump, malicious Call of Duty cheats. </p>
+<ul><li>The Ubiquiti Coverup.</li>
+<li>Facebook's 533,313,128 Million User Whoopsie!</li>
+<li>Don't mess with our water!</li>
+<li>Android moves to limit inter-app visibility.</li>
+<li>Beware malicious "Call of Duty: Warzone" cheats.</li>
+<li>QNAP — Just Say No!</li>
+<li>Listener Feedback.</li>
+<li>A Spy in Our Pocket.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-813-Notes.pdf">https://www.grc.com/sn/SN-813-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/jason-howell">Jason Howell</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://vee.am/securitynow">vee.am/securitynow</a></li>
+<li><a href="http://itpro.tv/securitynow">itpro.tv/securitynow  promo code SN30</a></li>
+<li><a href="http://Bandwidth.com/SecurityNow">Bandwidth.com/SecurityNow</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<p>Ubiquity coverup, Facebook data dump, malicious Call of Duty cheats. </p>
+<ul><li>The Ubiquiti Coverup.</li>
+<li>Facebook's 533,313,128 Million User Whoopsie!</li>
+<li>Don't mess with our water!</li>
+<li>Android moves to limit inter-app visibility.</li>
+<li>Beware malicious "Call of Duty: Warzone" cheats.</li>
+<li>QNAP — Just Say No!</li>
+<li>Listener Feedback.</li>
+<li>A Spy in Our Pocket.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-813-Notes.pdf">https://www.grc.com/sn/SN-813-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/jason-howell">Jason Howell</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://vee.am/securitynow">vee.am/securitynow</a></li>
+<li><a href="http://itpro.tv/securitynow">itpro.tv/securitynow  promo code SN30</a></li>
+<li><a href="http://Bandwidth.com/SecurityNow">Bandwidth.com/SecurityNow</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<p>Ubiquity coverup, Facebook data dump, malicious Call of Duty cheats. </p>
+<ul><li>The Ubiquiti Coverup.</li>
+<li>Facebook's 533,313,128 Million User Whoopsie!</li>
+<li>Don't mess with our water!</li>
+<li>Android moves to limit inter-app visibility.</li>
+<li>Beware malicious "Call of Duty: Warzone" cheats.</li>
+<li>QNAP — Just Say No!</li>
+<li>Listener Feedback.</li>
+<li>A Spy in Our Pocket.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-813-Notes.pdf">https://www.grc.com/sn/SN-813-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/jason-howell">Jason Howell</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://vee.am/securitynow">vee.am/securitynow</a></li>
+<li><a href="http://itpro.tv/securitynow">itpro.tv/securitynow  promo code SN30</a></li>
+<li><a href="http://Bandwidth.com/SecurityNow">Bandwidth.com/SecurityNow</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/825311/hero/sn_0813.jpg?itok=Eha0-CV6"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0813/sn0813.mp3</guid>
+			<itunes:duration>2:03:19</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0813/sn0813.mp3" length="59357934" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0813/sn0813.mp3" fileSize="59357934" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 813: A Spy in Our Pocket - Ubiquity Coverup, Facebook Data Dump, Malicious Call of Duty Cheats</media:title>
+				<media:description type="plain">Ubiquity Coverup, Facebook Data Dump, Malicious Call of Duty Cheats</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, ubiquiti, qnap, nas security, nas storage, call of duty malware, call of duty cheats, warzone cheats, warzone malware, android app permissions, android permissions, app permissions, water supply hack</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/825311/hero/sn_0813.jpg?itok=wFcFmsJZ" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Jason Howell</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 812: GIT Me Some PHP - Spectre Returns to Linux, API Security, OpenSSL Flaws, SolarWinds</title>
+			<itunes:title>GIT Me Some PHP - Spectre Returns to Linux, API Security, OpenSSL Flaws, SolarWinds</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 30 Mar 2021 17:30:00 PDT</pubDate>
+			<itunes:episode>812</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/812</link>
+			<comments>https://twit.tv/shows/security-now/episodes/812</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Spectre Returns to Linux, API Security, OpenSSL Flaws, SolarWinds</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, proxylogon, spectre, linux, spectre linux, openssl flaws, openssl fixes, solarwinds code, solarwinds vulnerability, solarwinds, cloudflare, api security, SpinRite, PHP, github, php github</itunes:keywords>
+			<description><![CDATA[
+<p>Spectre returns to Linux, API Security, OpenSSL flaws, SolarWinds. </p>
+<ul><li>Picture of the week.</li>
+<li>ProxyLogon Update.</li>
+<li>Spectre returns to Linux.</li>
+<li>OpenSSL fixes several high-severity flaws.</li>
+<li>SolarWinds keeps finding new critical problems within its own code.</li>
+<li>Cloudflare's recent moves.</li>
+<li>A focus on API Security.</li>
+<li>SpinRite update.</li>
+<li>The curious case of the PHP's Git Server Hack.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-812-Notes.pdf">https://www.grc.com/sn/SN-812-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="https://plextrac.com/twit/?utm_source=twit&utm_medium=podcast&utm_campaign=securitynow">plextrac.com/twit</a></li>
+<li><a href="http://thehelm.com/securitynow">thehelm.com/securitynow </a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<p>Spectre returns to Linux, API Security, OpenSSL flaws, SolarWinds. </p>
+<ul><li>Picture of the week.</li>
+<li>ProxyLogon Update.</li>
+<li>Spectre returns to Linux.</li>
+<li>OpenSSL fixes several high-severity flaws.</li>
+<li>SolarWinds keeps finding new critical problems within its own code.</li>
+<li>Cloudflare's recent moves.</li>
+<li>A focus on API Security.</li>
+<li>SpinRite update.</li>
+<li>The curious case of the PHP's Git Server Hack.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-812-Notes.pdf">https://www.grc.com/sn/SN-812-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="https://plextrac.com/twit/?utm_source=twit&utm_medium=podcast&utm_campaign=securitynow">plextrac.com/twit</a></li>
+<li><a href="http://thehelm.com/securitynow">thehelm.com/securitynow </a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<p>Spectre returns to Linux, API Security, OpenSSL flaws, SolarWinds. </p>
+<ul><li>Picture of the week.</li>
+<li>ProxyLogon Update.</li>
+<li>Spectre returns to Linux.</li>
+<li>OpenSSL fixes several high-severity flaws.</li>
+<li>SolarWinds keeps finding new critical problems within its own code.</li>
+<li>Cloudflare's recent moves.</li>
+<li>A focus on API Security.</li>
+<li>SpinRite update.</li>
+<li>The curious case of the PHP's Git Server Hack.</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-812-Notes.pdf">https://www.grc.com/sn/SN-812-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="https://plextrac.com/twit/?utm_source=twit&utm_medium=podcast&utm_campaign=securitynow">plextrac.com/twit</a></li>
+<li><a href="http://thehelm.com/securitynow">thehelm.com/securitynow </a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/825180/hero/sn_0812.jpg?itok=bP2udP8B"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0812/sn0812.mp3</guid>
+			<itunes:duration>1:45:19</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0812/sn0812.mp3" length="50671074" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0812/sn0812.mp3" fileSize="50671074" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 812: GIT Me Some PHP - Spectre Returns to Linux, API Security, OpenSSL Flaws, SolarWinds</media:title>
+				<media:description type="plain">Spectre Returns to Linux, API Security, OpenSSL Flaws, SolarWinds</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, proxylogon, spectre, linux, spectre linux, openssl flaws, openssl fixes, solarwinds code, solarwinds vulnerability, solarwinds, cloudflare, api security, SpinRite, PHP, github, php github</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/825180/hero/sn_0812.jpg?itok=vhwu0OlH" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+		<item>
+			<title>SN 811: What the FLoC? - Automatic Fix for Exchange Server Flaw, Firefox 87 Features, MyBB Patch</title>
+			<itunes:title>What the FLoC? - Automatic Fix for Exchange Server Flaw, Firefox 87 Features, MyBB Patch</itunes:title>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:author>TWiT</itunes:author>
+			<pubDate>Tue, 23 Mar 2021 17:00:00 PDT</pubDate>
+			<itunes:episode>811</itunes:episode>
+			<link>https://twit.tv/shows/security-now/episodes/811</link>
+			<comments>https://twit.tv/shows/security-now/episodes/811</comments>
+			<category>Technology</category>
+			<category>Security</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:subtitle>Automatic Fix for Exchange Server Flaw, Firefox 87 Features, MyBB Patch</itunes:subtitle>
+			<itunes:keywords>Security Now, TWiT, steve gibson, Leo Laporte, dave's garage, Microsoft, proxylogon microsoft, microsoft security, firefox privacy, firefox referrer, referrer policy, rced, remote code execution disasters, mybb patch, mybb, caid, flock, Google FLoC</itunes:keywords>
+			<description><![CDATA[
+<p>Automatic fix for Exchange Server flaw, Firefox 87 features, MyBB patch. </p>
+<ul><li>Dave's Garage on YouTube.</li>
+<li>The latest update on the ProxyLogon fiasco is from Microsoft.</li>
+<li>Black Kingdom Ransomware.</li>
+<li>Firefox will be adopting a new privacy-enhancing Referrer Policy.</li>
+<li>This Week in Remote Code Execution Disasters.</li>
+<li>MyBB gets patched.</li>
+<li>CAID is able.</li>
+<li>What the FLoC? "Federated Learning of Cohorts"</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-811-Notes.pdf">https://www.grc.com/sn/SN-811-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+</ul></p>
+]]></description>
+			<itunes:summary><![CDATA[
+<p>Automatic fix for Exchange Server flaw, Firefox 87 features, MyBB patch. </p>
+<ul><li>Dave's Garage on YouTube.</li>
+<li>The latest update on the ProxyLogon fiasco is from Microsoft.</li>
+<li>Black Kingdom Ransomware.</li>
+<li>Firefox will be adopting a new privacy-enhancing Referrer Policy.</li>
+<li>This Week in Remote Code Execution Disasters.</li>
+<li>MyBB gets patched.</li>
+<li>CAID is able.</li>
+<li>What the FLoC? "Federated Learning of Cohorts"</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-811-Notes.pdf">https://www.grc.com/sn/SN-811-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+</ul></p>
+]]></itunes:summary>
+			<content:encoded><![CDATA[
+<p>Automatic fix for Exchange Server flaw, Firefox 87 features, MyBB patch. </p>
+<ul><li>Dave's Garage on YouTube.</li>
+<li>The latest update on the ProxyLogon fiasco is from Microsoft.</li>
+<li>Black Kingdom Ransomware.</li>
+<li>Firefox will be adopting a new privacy-enhancing Referrer Policy.</li>
+<li>This Week in Remote Code Execution Disasters.</li>
+<li>MyBB gets patched.</li>
+<li>CAID is able.</li>
+<li>What the FLoC? "Federated Learning of Cohorts"</li>
+</ul><p>We invite you to read our show notes at <a href="https://www.grc.com/sn/SN-811-Notes.pdf">https://www.grc.com/sn/SN-811-Notes.pdf</a></p> 
+<p><strong>Hosts:</strong> <a href="https://twit.tv/people/steve-gibson">Steve Gibson</a> and <a href="https://twit.tv/people/leo-laporte">Leo Laporte</a> </p>
+<p>Download or subscribe to this show at <a href="https://twit.tv/shows/security-now">https://twit.tv/shows/security-now</a>. </p>
+<p>You can submit a question to Security Now! at the <a href="https://www.grc.com/feedback.htm" target="_blank">GRC Feedback Page</a>. </p>
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="https://www.grc.com/securitynow.htm" target="_blank">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="https://www.grc.com/sr/spinrite.htm" target="_blank">Spinrite 6</a>.</p>
+<p><strong>Sponsors:</strong><ul>
+<li><a href="http://expressvpn.com/securitynow">expressvpn.com/securitynow</a></li>
+<li><a href="http://extrahop.com/SECURITYNOW">extrahop.com/SECURITYNOW</a></li>
+<li><a href="http://Melissa.com/twit">Melissa.com/twit</a></li>
+</ul></p>
+]]></content:encoded>
+				<itunes:image href="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_600x450/public/images/episodes/825018/hero/sn_0811.jpg?itok=BxqUgDMP"/>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0811/sn0811.mp3</guid>
+			<itunes:duration>2:06:16</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0811/sn0811.mp3" length="60730515" type="audio/mpeg"/>
+			<media:content url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0811/sn0811.mp3" fileSize="60730515" type="audio/mpeg" medium="audio">
+				<media:title type="plain">SN 811: What the FLoC? - Automatic Fix for Exchange Server Flaw, Firefox 87 Features, MyBB Patch</media:title>
+				<media:description type="plain">Automatic Fix for Exchange Server Flaw, Firefox 87 Features, MyBB Patch</media:description>
+				<media:keywords>Security Now, TWiT, steve gibson, Leo Laporte, dave's garage, Microsoft, proxylogon microsoft, microsoft security, firefox privacy, firefox referrer, referrer policy, rced, remote code execution disasters, mybb patch, mybb, caid, flock, Google FLoC</media:keywords>
+				<media:thumbnail url="https://elroy.twit.tv/sites/default/files/styles/twit_slideshow_400x300/public/images/episodes/825018/hero/sn_0811.jpg?itok=lpSLA0_L" width="400" height="225" />
+				<media:rating scheme="urn:simple">nonadult</media:rating>
+				<media:rating scheme="urn:v-chip">tv-g</media:rating>
+				<media:category scheme="urn:iab:categories" label="Technology &amp; Computing">IAB19</media:category>				<media:credit role="anchor person">Steve Gibson</media:credit>
+				<media:credit role="anchor person">Leo Laporte</media:credit>
+			</media:content>
+		</item>
+	</channel>
+</rss>
