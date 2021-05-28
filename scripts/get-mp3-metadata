@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#
+# USAGE
+#
+#   get-mp3-metadata
+#
+# DESCRIPTION
+#
+#   Get MP3 metadata.
+
+for f in manifests/*; do
+  DIR=$(basename "${f}" | sed 's/\.txt//g')
+  while IFS= read -r x
+  do
+    MP3_FILE=$(echo "${x}" | grep -E -o '[0-9A-Za-z_\-]+.mp3')
+    if [[ -e ../assets/mp3/${DIR}/${MP3_FILE} ]]
+    then
+      duration=$(ffmpeg -nostdin -i "../assets/mp3/${DIR}/${MP3_FILE}" 2>&1 | grep -E -o '[0-9]{2}:[0-9]{2}:[0-9]{2}')
+      size=$(wc -c < "../assets/mp3/${DIR}/${MP3_FILE}" | tr -d ' ')
+      echo File: "${MP3_FILE}" Duration: "${duration}" Size: "${size}"
+    fi
+  done < "${f}"
+done
