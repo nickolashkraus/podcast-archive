@@ -9,14 +9,16 @@
 #   Download MP3 files.
 
 for f in manifests/*; do
+  COUNT=0
   DIR=$(basename "${f}" | sed 's/\.txt//g')
   while IFS= read -r x
   do
+    COUNT=$((COUNT+1))
     MP3_FILE=$(echo "${x}" | grep -E -o '[0-9A-Za-z_\-]+.mp3')
     if [[ ! -e ../assets/mp3/${DIR}/${MP3_FILE} ]]
     then
       echo 'File does not exist. Downloading...'
-      curl -sL "${x}" --output "../assets/mp3/${DIR}/${MP3_FILE}"
+      curl -sL "${x}" --output "../assets/mp3/${DIR}/${DIR}-$(printf %04d ${COUNT}).mp3"
     fi
   done < "${f}"
 done
