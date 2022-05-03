@@ -19,7 +19,7 @@ An archive of my favorite podcasts
 ### [The Peter Attia Drive](https://peterattiamd.com/podcast)
 
 * [Official RSS Feed](https://peterattiadrive.libsyn.com/rss)
-* [Archive RSS Feed](https://archive.the-drive.s3.amazonaws.com/rss/the-drive.rss)
+* [Archive RSS Feed](https://archive.the-peter-attia-drive.s3.amazonaws.com/rss/the-drive.rss)
 
 ## Deployment
 
