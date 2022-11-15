@@ -1,6 +1,6 @@
 # Podcast Archive
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/NickolasHKraus/podcast-archive/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/nickolashkraus/podcast-archive/blob/master/LICENSE)
 
 An archive of my favorite podcasts
 
